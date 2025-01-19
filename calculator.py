@@ -12,6 +12,8 @@ def calculate(choice, num1, num2):
     if choice == 4:
         if num2 != 0:
             return num1 / num2
+        else:
+            return "Error: Division by zero"
 
   
     
