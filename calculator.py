@@ -9,8 +9,13 @@ def menu():
 
 # Calculating Operations
 def calculate(choice, num1, num2):
+
     if choice == 1:
         return num1 + num2
+
+    if choice == 2:
+        return num1 - num2 
+
 
   
     
