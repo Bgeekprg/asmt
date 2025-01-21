@@ -9,6 +9,7 @@ def menu():
 
 # Calculating Operations
 def calculate(choice, num1, num2):
+    
     if choice == 5:
         return num1 % num2 
 
