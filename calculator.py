@@ -23,7 +23,6 @@ def calculate(choice, num1, num2):
             return num1 / num2
         else:
             return "Error: Division by zero"
-
     elif choice == 5:
         return num1 % num2 
 
