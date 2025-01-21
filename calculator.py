@@ -29,10 +29,6 @@ def calculate(choice, num1, num2):
     elif choice == 6:
         return num1 ** num2 
     
-   
-   
-
-
 # Calling Menu
 menu()
 
