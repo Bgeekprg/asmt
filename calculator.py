@@ -19,7 +19,7 @@ def calculate(choice, num1, num2):
     elif choice == 3:
         return num1 * num2  
 
-    if choice == 4:
+    elif choice == 4:
         if num2 != 0:
             return num1 / num2
         else:
