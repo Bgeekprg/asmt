@@ -1,16 +1,23 @@
 # Menu for showing operation list
 def menu():
-    print("1. + ")
-    print("2. - ")
-    print("3. * ")
-    print("4. / ")
-    print("5. % ")
-    print("6. ^ ")
-
+    print("1. Addition ")
+    print("2. Subtraction ")
+    print("3. Multiplication ")
+    print("4. Division ")
+    print("5. Modulus ")
+    print("6. Exponent ")
+    
 # Calculating Operations
 def calculate(choice, num1, num2):
-    if choice == 2:
+    if choice == 1:
+        return num1 + num2
+
+    elif choice == 2:
         return num1 - num2 
+
+
+    
+    
 
 # Calling Menu
 menu()
