@@ -11,12 +11,6 @@ def menu():
 def calculate(choice, num1, num2):
     if choice == 6:
         return num1 ** num2 
-    
-
-  
-    
-   
-
 
 # Calling Menu
 menu()
