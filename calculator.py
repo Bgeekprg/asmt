@@ -12,11 +12,6 @@ def calculate(choice, num1, num2):
     if choice == 3:
         return num1 * num2  
 
-  
-    
-   
-
-
 # Calling Menu
 menu()
 
