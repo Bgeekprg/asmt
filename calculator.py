@@ -15,11 +15,6 @@ def calculate(choice, num1, num2):
         else:
             return "Error: Division by zero"
 
-  
-    
-   
-
-
 # Calling Menu
 menu()
 
